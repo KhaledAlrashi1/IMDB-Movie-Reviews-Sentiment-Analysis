@@ -43,8 +43,6 @@ Hello! Welcome to a repository dedicated to the fascinating world of machine lea
 
 ## Contact
 
-Connect with me and let's discuss!
-
     LinkedIn: linkedin.com/in/khaled-alrashidi-6b7376190
     Email: alrashidi.kha@gmail.com
 
