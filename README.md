@@ -1,14 +1,9 @@
 ## Sentiment Analysis of IMDB Reviews Using LSTM
 
-#### Welcome! This is a sentiment analysis project on IMDB movie reviews using a Long Short-Term Memory (LSTM) neural network. This project aims to provide a comprehensive exploration of using deep learning techniques to understand and analyze sentiments expressed in movie reviews. The Jupyter Notebook has a detailed implementation of the LSTM model, including data loading, preprocessing, model building, training, and evaluation.
-
-## Goals of This Project
-1. To apply LSTM networks, a type of recurrent neural network, in analyzing textual data.
-2. To gain practical experience in processing and visualizing data for natural language processing tasks.
-3. To understand the nuances of sentiment analysis in a real-world dataset.
+#### Welcome! This is a sentiment analysis project on IMDB movie reviews using a Long Short-Term Memory (LSTM) neural network. The Jupyter Notebook has a detailed implementation of the LSTM model, including data preprocessing, model building, training, and evaluation.
 
 ### Dataset
-The dataset is provided by the `keras` library and consists of 25,000 training reviews and 25,000 testing reviews. Each review in the dataset is tokenized, and words are replaced with integers representing their relative frequency of occurrence. For instance, the integer "3" might represent the third most frequent word in the dataset.
+The dataset is provided by the `Kaggle` library and consists of 50,000 reviews. 
 
 ![Length Distribution of Positive vs Negative Reviews](data_visualization/length_distribution_of_positive_vs_negative_reviews.png)
 * This histogram compares the length distribution of positive and negative reviews, offering an understanding of how review length might correlate with sentiment.
