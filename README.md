@@ -3,7 +3,7 @@
 #### Welcome! This is a sentiment analysis project on IMDB movie reviews using a Long Short-Term Memory (LSTM) neural network. The Jupyter Notebook has a detailed implementation of the LSTM model, including data preprocessing, model building, training, and evaluation.
 
 ### Dataset
-The dataset is provided by the `Kaggle` library and consists of 50,000 reviews. 
+The dataset is provided by the `Kaggle` library and consists of 50,000 reviews. You can download it from here: "https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews"
 
 ![Length Distribution of Positive vs Negative Reviews](data_visualization/length_distribution_of_positive_vs_negative_reviews.png)
 * This histogram compares the length distribution of positive and negative reviews, offering an understanding of how review length might correlate with sentiment.
