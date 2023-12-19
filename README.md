@@ -1,6 +1,7 @@
 ## Sentiment Analysis of IMDB Reviews Using LSTM
+![Sentiment Analysis](data_visualization/Sentiment-Analysis.png)
 
-#### Welcome! This is a sentiment analysis project on IMDB movie reviews using a Long Short-Term Memory (LSTM) neural network. The Jupyter Notebook has a detailed implementation of the LSTM model, including data preprocessing, model building, training, and evaluation.
+#### This is a sentiment analysis project on IMDB movie reviews using a Long Short-Term Memory (LSTM) neural network. The Jupyter Notebook has a detailed implementation of the LSTM model, including data preprocessing, model building, training, and evaluation.
 
 ### Dataset
 The dataset is provided by the `Kaggle` library and consists of 50,000 reviews. You can download it from here: "https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews"
