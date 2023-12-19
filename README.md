@@ -36,4 +36,4 @@ After training the model for ten epochs, it achieved an accuracy of 87% on the t
 * The confusion matrix visualizes the performance of the sentiment analysis model, showing the breakdown of true positive, false positive, true negative, and false negative predictions.
 
 ## Conclusion and Future Work
-This project serves as an introduction to sentiment analysis using deep learning. While the achieved accuracy is promising, there's always room for improvement. Future work could involve experimenting with more complex model architectures, fine-tuning hyperparameters, or using pre-trained word embeddings like Word2Vec or GloVe.
+This project serves as an introduction to sentiment analysis using deep learning. While the achieved accuracy is promising, there's always room for improvement. Future work could involve experimenting with more complex model architectures, fine-tuning hyperparameters, or using pre-trained word embeddings like Word2Vec or GloVe. I hope you find it helpful. Please let me know if you have any questions.
