@@ -1,26 +1,27 @@
-## Sentiment Analysis of IMDB Reviews Using LSTM
+# Sentiment Analysis of IMDB Reviews Using LSTM
 ![Sentiment Analysis](data_visualization/Sentiment-Analysis.png)
 
-#### This is a sentiment analysis project on IMDB movie reviews using a Long Short-Term Memory (LSTM) neural network. The Jupyter Notebook has a detailed implementation of the LSTM model, including data preprocessing, model building, training, and evaluation.
+## Overview
+This is a sentiment analysis project on IMDB movie reviews using a Long Short-Term Memory (LSTM) neural network. The Jupyter Notebook has a detailed implementation of the LSTM model, including data preprocessing, model building, training, and evaluation.
 
-### Dataset
+## Dataset
 The dataset is provided by the `Kaggle` library and consists of 50,000 reviews. You can download it from here: "https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews"
 
 ![Length Distribution of Positive vs Negative Reviews](data_visualization/length_distribution_of_positive_vs_negative_reviews.png)
 * This histogram compares the length distribution of positive and negative reviews, offering an understanding of how review length might correlate with sentiment.
 
-### Data Preprocessing
+## Data Preprocessing
 Given the varying lengths of movie reviews, data preprocessing involved padding sequences to ensure each review had a uniform length. This step ensures that the model receives input data of consistent shape.
 
-### Word Cloud for Negative Reviews
+## Word Cloud for Negative Reviews
 ![Word Cloud for Negative Reviews](data_visualization/word_cloud_for_negative_reviews.png)
 * This word cloud represents the most frequent words found in negative reviews from the IMDB dataset, providing a visual representation of common themes and sentiments.
 
-### Word Cloud for Positive Reviews
+## Word Cloud for Positive Reviews
 ![Word Cloud for Positive Reviews](data_visualization/word_cloud_for_positive_reviews.png)
 * This word cloud represents the most frequent words found in positive reviews from the IMDB dataset, providing a visual representation of common themes and sentiments.
 
-### Model Architecture
+## Model Architecture
 The neural network model is built using Keras and consists of the following layers:
 1. **Embedding Layer**: This layer converts the integer sequences into dense vectors of fixed size. It helps in reducing dimensionality and capturing the semantic meaning of words.
 2. **LSTM Layer**: LSTM (Long Short-Term Memory) is a type of Recurrent Neural Network (RNN) layer. It's particularly suited for sequence data, like our movie reviews, as it can capture long-term dependencies and patterns in the data.
